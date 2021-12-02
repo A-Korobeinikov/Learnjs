@@ -27,13 +27,30 @@ let personalMovieDB = {
 
 
  // Реализация через While
-let i = 0 ;
-while (i < 2) {
+// let i = 0 ;
+// while (i < 2) {
     
+//     const a = prompt('One of the last watching films', '');
+//     const b = prompt('На сколько оцените его?', '');    
+    
+//     if (a != null && b != null && a != '' && b != '' && a.length < 50) {
+        
+//         console.log('done');
+//     } else {
+//         console.log('error');
+//         i--;
+//     }
+//     personalMovieDB.movies[a] = b;
+//     i++;
+    
+// }
+
+//реализация через do
+ let i = 0;
+do {
     const a = prompt('One of the last watching films', '');
     const b = prompt('На сколько оцените его?', '');    
     
-
     if (a != null && b != null && a != '' && b != '' && a.length < 50) {
         
         console.log('done');
@@ -43,8 +60,7 @@ while (i < 2) {
     }
     personalMovieDB.movies[a] = b;
     i++;
-    
-}
+} while (i < 2);
 
 
 
