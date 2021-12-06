@@ -72,5 +72,5 @@ function writeYourGenres() {
     }
     console.log(personalMovieDB);
 }
-writeYourGenres();
+//writeYourGenres();
  
