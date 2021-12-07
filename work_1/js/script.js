@@ -67,7 +67,7 @@ let personalMovieDB = {
     },
 };
 
-personalMovieDB.writeYourGenres();
+
 
 
 
